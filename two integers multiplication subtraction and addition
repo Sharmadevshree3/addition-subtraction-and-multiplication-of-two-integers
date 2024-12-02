@@ -1,0 +1,15 @@
+# addition-subtraction-and-multiplication-of-two-integers
+
+#include <stdio.h>
+int main()
+{
+int a,b,addition,subtraction,multiplication,division;
+printf("enter the value of a: ");
+scanf("%d",&a);
+printf("enter the value of b: ");
+scanf("%d",&b);
+printf("addition is %d\n", addition=a+b);
+printf("subtraction is %d\n", subtraction=a-b);
+printf("multiplication is %d\n", multiplication=a*b);
+    return 0;
+}
